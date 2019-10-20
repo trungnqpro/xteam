@@ -21,7 +21,7 @@ module.exports = {
   ** Build configuration
   */
   router: {
-    base: '/'
+    base: '/_nuxt/'
   },
   build: {
     /*
