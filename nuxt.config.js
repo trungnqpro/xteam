@@ -21,7 +21,7 @@ module.exports = {
   ** Build configuration
   */
   router: {
-    base: '/_nuxt/'
+    base: '/xteam/'
   },
   build: {
     /*
