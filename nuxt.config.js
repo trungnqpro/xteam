@@ -20,6 +20,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  router: {
+    base: '/'
+  },
   build: {
     /*
     ** Run ESLINT on save
@@ -32,10 +35,6 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
-      }
-
-      if (!ctx.isDev) {
-        config.output.publicPath = '/'
       }
     },
     vendor: [
