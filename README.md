@@ -3,8 +3,6 @@
 > The landing page for XTeam.
 > Made with Bulma, Vue.js and Nuxt.js.
 
-[![XTeam](./screenshot.png "XTeam")](https://pulsar.surge.sh/)
-
 ## Table of Contents
 
 - [Build Setup](#build-setup)

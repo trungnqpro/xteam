@@ -7,7 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Pulsar - We make modern web applications and websites' }
+      { hid: 'description', name: 'description', content: 'XTeam - We make modern web applications and websites' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/xteam/favicon.ico' }
