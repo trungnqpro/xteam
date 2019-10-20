@@ -33,6 +33,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+
+      if (!ctx.isDev) {
+        config.output.publicPath = '_nuxt/'
+      }
     },
     vendor: [
       'vee-validate'
