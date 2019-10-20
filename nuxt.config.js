@@ -35,7 +35,7 @@ module.exports = {
       }
 
       if (!ctx.isDev) {
-        config.output.publicPath = '_nuxt/'
+        config.output.publicPath = ''
       }
     },
     vendor: [
