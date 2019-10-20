@@ -35,7 +35,7 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
-      }
+      };
     },
     vendor: [
       'vee-validate'
@@ -45,7 +45,8 @@ module.exports = {
       plugins: {
         'postcss-custom-properties': false
       }
-    }
+    },
+    publicPath: ''
   },
   css: [
     '@/assets/scss/main.scss'
