@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Pulsar - We make modern web applications and websites' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/xteam/favicon.ico' }
     ]
   },
   /*
