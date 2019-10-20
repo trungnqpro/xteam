@@ -35,7 +35,7 @@ module.exports = {
       }
 
       if (!ctx.isDev) {
-        config.output.publicPath = ''
+        config.output.publicPath = '/'
       }
     },
     vendor: [
