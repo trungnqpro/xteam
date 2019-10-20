@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:700");
+
+// 1. Import the initial variables
+@import "~bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+$radius-small: 0;
+$radius: 0;
+$radius-large: 0;
+
+// 3. Set the derived variables
+
+// 4. Import the rest of Bulma
+@import "~bulma/bulma";
+
+$fa-font-path:   "~font-awesome/fonts";
+
+@import "~font-awesome/scss/font-awesome";
+
+// Custom style
+@import "custom";
